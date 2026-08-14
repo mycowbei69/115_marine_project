@@ -1,0 +1,5 @@
+__pycache__/
+.venv/
+rag_store.sqlite3
+*.log
+my_data/
