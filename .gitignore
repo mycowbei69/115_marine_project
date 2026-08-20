@@ -3,3 +3,4 @@ __pycache__/
 rag_store.sqlite3
 *.log
 my_data/
+rag_assets/

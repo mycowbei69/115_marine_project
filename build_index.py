@@ -1,7 +1,7 @@
 import argparse
 from rag_core import build_index
 
-parser = argparse.ArgumentParser(description="建立漁業資料 RAG 索引")
+parser = argparse.ArgumentParser(description="建立漁業 Hybrid-RAG 向量知識庫")
 parser.add_argument("--rebuild", action="store_true", help="刪除舊索引後重建")
 args = parser.parse_args()
 count, errors = build_index(args.rebuild)
